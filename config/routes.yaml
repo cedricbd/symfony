@@ -1,0 +1,16 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+hello:
+    path: /hello-word
+    controller: App\Controller\HomeController::hello
+
+utilisateur:
+    path: /utilisateur
+    controller: App\Controller\UserController::utilisateur    
+
+administrateur:
+    path: /administrateur    
+    controller: App\Controller\AdminController ::adiminstrateur
+
+
